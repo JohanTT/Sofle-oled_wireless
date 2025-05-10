@@ -15,7 +15,7 @@ layers:
   - F9
   - F10
   - F11
-  - '&Take_Screen_Shot'
+  - '&Toggle_Telex'
   - '!'
   - '@'
   - '#'
@@ -27,7 +27,7 @@ layers:
   - '['
   - ']'
   - F12
-  - {t: ▽, type: trans}
+  - '&Take_Screen_Shot'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -46,7 +46,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PLAY PAUSE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&Toggle_Telex'
+  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mmv MOVE_UP'
   - '&mkp RCLK'
