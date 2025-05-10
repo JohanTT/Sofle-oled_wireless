@@ -75,6 +75,13 @@
             bindings = <&kp LC(RIGHT)>;
             label = "SWITCH_RIGHT_SPACE";
         };
+
+        Lock_Screen: Lock_Screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LG(Q))>;
+            label = "LOCK_SCREEN";
+        };
     };
 
     keymap {
@@ -160,11 +167,11 @@
 
             label = "adjust";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0        &bt BT_SEL 1         &bt BT_SEL 2         &bt BT_SEL 3  &bt BT_SEL 4                  &none  &none  &none  &none          &none  &none
-&none       &Mission_Control    &Application_Window  &none                &none         &none                         &none  &none  &none  &none          &none  &none
-&none       &Switch_Left_Space  &none                &Switch_Right_Space  &none         &none                         &none  &none  &none  &Screen_Saver  &none  &none
-&none       &none               &none                &none                &none         &none         &none    &none  &none  &none  &none  &none          &none  &none
-                                &none                &none                &none         &none         &none    &none  &none  &none  &none  &none
+&bt BT_CLR        &bt BT_SEL 0        &bt BT_SEL 1         &bt BT_SEL 2         &bt BT_SEL 3  &bt BT_SEL 4                  &none  &none  &none  &none          &none  &none
+&none             &Lock_Screen        &Application_Window  &none                &none         &none                         &none  &none  &none  &none          &none  &none
+&Mission_Control  &Switch_Left_Space  &Application_Window  &Switch_Right_Space  &none         &none                         &none  &none  &none  &Screen_Saver  &none  &none
+&none             &none               &none                &none                &none         &none         &none    &none  &none  &none  &none  &none          &none  &none
+                                      &none                &none                &none         &none         &none    &none  &none  &none  &none  &none
             >;
         };
     };
