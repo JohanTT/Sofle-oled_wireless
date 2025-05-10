@@ -14,6 +14,16 @@
 #define RAISE 2
 #define ADJUST 3
 
+&mmv {
+    x-input-code = <600>;
+    y-input-code = <600>;
+};
+
+&msc {
+    x-input-code = <10>;
+    y-input-code = <10>;
+};
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
@@ -84,27 +94,6 @@
         };
     };
 
-    behaviors {
-        mmv: mmv {
-            compatible = "zmk,behavior-input-two-axis";
-            label = "MMV";
-            #binding-cells = <1>;
-            x-input-code = <600>;
-            y-input-code = <600>;
-            time-to-max-speed-ms = <300>;
-        };
-
-        msc: msc {
-            compatible = "zmk,behavior-input-two-axis";
-            label = "MSC";
-            #binding-cells = <1>;
-            x-input-code = <10>;
-            y-input-code = <10>;
-            time-to-max-speed-ms = <300>;
-            acceleration-exponent = <0>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -166,11 +155,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans          &trans          &trans          &trans           &trans       &trans                    &trans          &trans          &trans        &trans           &trans         &trans
-&trans          &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans       &trans                    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp PAGE_UP    &trans
-&trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans       &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp PAGE_DOWN  &trans
-&kp K_PREVIOUS  &kp K_UNDO      &kp K_CUT       &kp K_COPY       &kp K_PASTE  &trans  &trans    &trans  &trans          &trans          &trans        &trans           &trans         &trans
-                                &trans          &trans           &trans       &trans  &trans    &trans  &trans          &trans          &trans        &trans
+&trans          &trans      &trans     &trans      &trans       &trans                    &trans          &trans          &trans        &trans     &trans         &trans
+&trans          &mkp LCLK   &none      &mkp RCLK   &trans       &trans                    &none           &none           &none         &none      &kp PAGE_UP    &trans
+&trans          &none       &none      &none       &trans       &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp PAGE_DOWN  &trans
+&kp K_PREVIOUS  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &trans  &trans    &trans  &trans          &trans          &trans        &trans     &trans         &trans
+                            &trans     &trans      &trans       &trans  &trans    &trans  &trans          &trans          &trans        &trans
             >;
 
             sensor-bindings =
