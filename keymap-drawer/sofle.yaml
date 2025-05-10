@@ -86,7 +86,7 @@ layers:
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
-  - {t: ▽, type: trans}
+  - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mmv MOVE_LEFT'
@@ -98,7 +98,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - PREVIOUS
   - UNDO
