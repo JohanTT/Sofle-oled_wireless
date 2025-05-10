@@ -15,7 +15,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
+  - '&Take_Screen_Shot'
   - '!'
   - '@'
   - '#'
@@ -46,7 +46,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,7 +64,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - '&Take_Screen_Shot'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,21 +137,9 @@ layers:
   - ''
   - ''
   - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
+  - '&Mission_Control'
+  - '&Application_Window'
   - ''
   - ''
   - ''
@@ -162,12 +150,24 @@ layers:
   - ''
   - ''
   - ''
+  - '&Switch_Left_Space'
+  - ''
+  - '&Switch_Right_Space'
   - ''
   - ''
   - ''
   - ''
   - ''
-  - RGB TOG
+  - '&Screen_Saver'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
