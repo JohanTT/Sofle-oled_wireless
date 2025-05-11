@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mmv MOVE_UP'
+  - '&mmv MOVE_Y(-1250)'
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -89,9 +89,9 @@ layers:
   - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_X(-1250)'
+  - '&mmv MOVE_Y(1250)'
+  - '&mmv MOVE_X(1250)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
