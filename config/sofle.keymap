@@ -17,11 +17,15 @@
 &mmv {
     x-input-code = <600>;
     y-input-code = <600>;
+    time-to-max-speed-ms = <300>;
+    acceleration-exponent = <1>;
 };
 
 &msc {
     x-input-code = <10>;
     y-input-code = <10>;
+    time-to-max-speed-ms = <300>;
+    acceleration-exponent = <0>;
 };
 
 / {
