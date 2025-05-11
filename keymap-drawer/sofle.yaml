@@ -100,12 +100,12 @@ layers:
   - RIGHT
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - PREVIOUS
+  - {t: ▽, type: trans}
   - AC UNDO
   - AC CUT
   - AC COPY
   - AC PASTE
-  - {t: ▽, type: trans}
+  - Sft+Gui+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
