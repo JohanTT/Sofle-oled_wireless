@@ -101,10 +101,10 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - PREVIOUS
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - AC UNDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
