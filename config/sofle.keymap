@@ -17,20 +17,6 @@
 #define RAISE 2
 #define ADJUST 3
 
-&mmv {
-    x-input-code = <600>;
-    y-input-code = <600>;
-    time-to-max-speed-ms = <300>;
-    acceleration-exponent = <1>;
-};
-
-&msc {
-    x-input-code = <10>;
-    y-input-code = <10>;
-    time-to-max-speed-ms = <300>;
-    acceleration-exponent = <0>;
-};
-
 / {
     // Activate ADJUST layer by pressing raise and lower
 
