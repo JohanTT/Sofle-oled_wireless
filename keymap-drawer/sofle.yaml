@@ -143,10 +143,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Gui+[
+  - Sft+F12
+  - Ctl+]
+  - Sft+Gui+]
   - ''
   - ''
   - '&Mission_Control'
