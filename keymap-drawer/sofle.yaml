@@ -144,7 +144,7 @@ layers:
   - ''
   - ''
   - Gui+[
-  - Sft+F12
+  - Sft+Gui+F12
   - Ctl+]
   - Sft+Gui+]
   - ''
