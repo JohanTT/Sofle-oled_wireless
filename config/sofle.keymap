@@ -168,11 +168,11 @@
 
             label = "adjust";
             bindings = <
-&bt BT_CLR        &bt BT_SEL 0        &bt BT_SEL 1         &bt BT_SEL 2         &bt BT_SEL 3  &bt BT_SEL 4                  &none                 &none        &none                  &none                      &none  &bt BT_CLR_ALL
-&none             &Lock_Screen        &Application_Window  &none                &none         &none                         &kp LG(LEFT_BRACKET)  &kp LS(F12)  &kp LC(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &none  &none
-&Mission_Control  &Switch_Left_Space  &Application_Window  &Switch_Right_Space  &none         &none                         &none                 &none        &none                  &Screen_Saver              &none  &none
-&none             &none               &none                &none                &none         &none         &none    &none  &none                 &none        &none                  &none                      &none  &none
-                                      &none                &none                &none         &none         &none    &none  &none                 &none        &none                  &none
+&bt BT_CLR        &bt BT_SEL 0        &bt BT_SEL 1         &bt BT_SEL 2         &bt BT_SEL 3  &bt BT_SEL 4                  &none                 &none            &none                  &none                      &none  &bt BT_CLR_ALL
+&none             &Lock_Screen        &Application_Window  &none                &none         &none                         &kp LG(LEFT_BRACKET)  &kp LS(LG(F12))  &kp LC(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &none  &none
+&Mission_Control  &Switch_Left_Space  &Application_Window  &Switch_Right_Space  &none         &none                         &none                 &none            &none                  &Screen_Saver              &none  &none
+&none             &none               &none                &none                &none         &none         &none    &none  &none                 &none            &none                  &none                      &none  &none
+                                      &none                &none                &none         &none         &none    &none  &none                 &none            &none                  &none
             >;
         };
     };
