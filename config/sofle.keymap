@@ -149,7 +149,7 @@
 &trans  &trans          &trans          &trans           &trans     &trans                           &trans          &trans          &trans        &trans           &trans         &trans
 &trans  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans     &trans                           &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp PAGE_UP    &trans
 &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &trans                           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp PAGE_DOWN  &trans
-&trans  &kp LC(Z)       &kp LG(X)       &kp LG(C)        &kp LG(V)  &kp LS(LG(Z))  &trans    &trans  &trans          &trans          &trans        &trans           &trans         &trans
+&trans  &kp LG(Z)       &kp LG(X)       &kp LG(C)        &kp LG(V)  &kp LS(LG(Z))  &trans    &trans  &trans          &trans          &trans        &trans           &trans         &trans
                         &trans          &trans           &trans     &trans         &trans    &trans  &trans          &trans          &trans        &trans
             >;
 
@@ -168,11 +168,11 @@
 
             label = "adjust";
             bindings = <
-&bt BT_CLR        &bt BT_SEL 0        &bt BT_SEL 1         &bt BT_SEL 2         &bt BT_SEL 3  &bt BT_SEL 4                  &none                 &none            &none                  &none                      &none  &bt BT_CLR_ALL
-&none             &Lock_Screen        &Mission_Control     &none                &none         &none                         &kp LG(LEFT_BRACKET)  &kp LS(LG(F12))  &kp LC(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &none  &none
-&Mission_Control  &Switch_Left_Space  &Application_Window  &Switch_Right_Space  &none         &none                         &none                 &none            &none                  &Screen_Saver              &none  &none
-&none             &none               &none                &none                &none         &none         &none    &none  &none                 &none            &none                  &none                      &none  &none
-                                      &none                &none                &none         &none         &none    &none  &none                 &none            &none                  &none
+&bt BT_CLR        &bt BT_SEL 0        &bt BT_SEL 1         &bt BT_SEL 2         &bt BT_SEL 3  &bt BT_SEL 4                  &none                     &none            &none                  &none                      &none  &bt BT_CLR_ALL
+&none             &Lock_Screen        &Mission_Control     &none                &none         &none                         &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(F12))  &kp LC(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &none  &none
+&Mission_Control  &Switch_Left_Space  &Application_Window  &Switch_Right_Space  &none         &none                         &none                     &none            &none                  &Screen_Saver              &none  &none
+&none             &none               &none                &none                &none         &none         &none    &none  &none                     &none            &none                  &none                      &none  &none
+                                      &none                &none                &none         &none         &none    &none  &none                     &none            &none                  &none
             >;
         };
     };
