@@ -125,12 +125,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -147,9 +147,9 @@ layers:
   - Sft+Gui+F12
   - Ctl+]
   - Sft+Gui+]
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
   - ''
-  - ''
-  - '&Mission_Control'
   - '&Switch_Left_Space'
   - '&Application_Window'
   - '&Switch_Right_Space'
@@ -159,8 +159,8 @@ layers:
   - ''
   - ''
   - '&Screen_Saver'
-  - ''
-  - ''
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
   - ''
   - ''
   - ''
