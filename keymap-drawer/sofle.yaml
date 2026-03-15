@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT GUI, LALT, LEFT CONTROL, lower, SPACE, ENTER, raise, RIGHT CONTROL, RALT, RIGHT GUI]
-  lower:
+  Thang.Cao: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
+    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT GUI, LALT, LEFT CONTROL, RamRam, SPACE, ENTER, DunDun, RIGHT CONTROL, RALT, RIGHT GUI]
+  RamRam:
   - ESCAPE
   - F1
   - F2
@@ -48,7 +48,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&Win_Minimize'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -63,7 +63,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  raise:
+  DunDun:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -77,9 +77,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - '&mkp LCLK'
   - '&mmv MOVE_UP'
-  - '&mkp MB2'
+  - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
@@ -101,11 +101,11 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - REDO
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Sft+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
+  Ram<3Dun:
   - ''
   - ''
   - Gui+Sft+F5
@@ -143,16 +143,16 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+Sft+[
-  - Sft+Gui+F12
+  - Ctl+Sft+[
+  - Sft+Ctl+F12
   - Ctl+]
-  - Sft+Gui+]
+  - Ctl+Sft+]
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - ''
-  - '&Switch_Left_Space'
+  - ''
   - '&Application_Window'
-  - '&Switch_Right_Space'
+  - ''
   - ''
   - ''
   - ''
