@@ -71,6 +71,7 @@
 
         Win_Minimize: win_minimize {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             label = "WIN_MINIMIZE";
             bindings = <&kp LG(DOWN_ARROW)>;
         };
