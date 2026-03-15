@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  Thang.Cao: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT GUI, LALT, LEFT CONTROL, RamRam, SPACE, ENTER, DunDun, RIGHT CONTROL, RALT, RIGHT GUI]
-  RamRam:
+  thangcao: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
+    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT GUI, LALT, LEFT CONTROL, ramram, SPACE, ENTER, dundun, RIGHT CONTROL, RALT, RIGHT GUI]
+  ramram:
   - ESCAPE
   - F1
   - F2
@@ -63,7 +63,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  DunDun:
+  dundun:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Ram<3Dun:
+  ramdun:
   - ''
   - ''
   - Gui+Sft+F5

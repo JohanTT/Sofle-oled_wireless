@@ -124,8 +124,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-Thang.Cao">
-<text x="0" y="28" class="label" id="Thang.Cao">Thang.Cao:</text>
+<g transform="translate(30, 0)" class="layer-thangcao">
+<text x="0" y="28" class="label" id="thangcao">thangcao:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -347,8 +347,8 @@ path.combo {
 </g>
 <g transform="translate(316, 274) rotate(22.5)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#RamRam">
-<text x="0" y="0" class="key tap layer-activator">RamRam</text>
+<a href="#ramram">
+<text x="0" y="0" class="key tap layer-activator">ramram</text>
 </a></g>
 <g transform="translate(378, 291) rotate(30.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -360,8 +360,8 @@ path.combo {
 </g>
 <g transform="translate(580, 274) rotate(-22.5)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#DunDun">
-<text x="0" y="0" class="key tap layer-activator">DunDun</text>
+<a href="#dundun">
+<text x="0" y="0" class="key tap layer-activator">dundun</text>
 </a></g>
 <g transform="translate(644, 259)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -381,8 +381,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 398)" class="layer-RamRam">
-<text x="0" y="28" class="label" id="RamRam">RamRam:</text>
+<g transform="translate(30, 398)" class="layer-ramram">
+<text x="0" y="28" class="label" id="ramram">ramram:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -627,8 +627,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 795)" class="layer-DunDun">
-<text x="0" y="28" class="label" id="DunDun">DunDun:</text>
+<g transform="translate(30, 795)" class="layer-dundun">
+<text x="0" y="28" class="label" id="dundun">dundun:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -903,8 +903,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1193)" class="layer-Ram&lt;3Dun">
-<text x="0" y="28" class="label" id="Ram3Dun">Ram&lt;3Dun:</text>
+<g transform="translate(30, 1193)" class="layer-ramdun">
+<text x="0" y="28" class="label" id="ramdun">ramdun:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
